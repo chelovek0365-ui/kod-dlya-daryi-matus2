@@ -1,5 +1,7 @@
 Sub ПереносБлоками_J_в_NOP()
 
+    Sub ПереносБлоками_J_в_NOP()
+
     Dim lastRow As Long
     Dim srcRow As Long
     Dim outRow As Long
@@ -48,5 +50,7 @@ Sub ПереносБлоками_J_в_NOP()
         If cyclePos > 3 Then cyclePos = 1
         
     Next srcRow
+
+End Sub
 
 End Sub
